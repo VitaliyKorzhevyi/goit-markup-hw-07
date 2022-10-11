@@ -1,0 +1,36 @@
+/* CLIENTS */
+
+.clients {
+    background-color: $clientsBgColor;
+    text-align: center;
+  }
+  
+  .clients__title {
+    margin-bottom: 50px;
+  }
+  
+  .clients-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .clients-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 92px;
+    width: 170px;
+  
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: $iconColor;
+    transition: fill $timeHover $cubicFunction,
+    border $timeHover $cubicFunction;
+  }
+  
+  .clients-list__link:hover,
+  .clients-list__link:focus {
+    fill: $clientsColorAccent;
+    border: 1px solid $clientsBorderAccent;
+  }

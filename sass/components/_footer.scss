@@ -1,0 +1,172 @@
+/* FOOTER */
+
+.page-footer {
+  background-color: $secondaryBgColor;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer-contact {
+  margin: 60px 0;
+}
+
+.logo--white {
+  color: $tertiaryTextColor;
+}
+
+.adress {
+  margin-top: 20px;
+}
+
+.adress__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.adress__item--size {
+  width: 231px;
+}
+
+.adress__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: $footerTextColor;
+  transition: color $timeHover $cubicFunction;
+}
+
+.adress__link:hover,
+.adress__link:focus {
+  color: $accentTextColor;
+}
+
+.adress__link--geo {
+  color: $tertiaryTextColor;
+}
+
+/* приєднуйтесь */
+
+.footer-soc {
+  margin: 72px 0 100px 70px;
+}
+
+.footer-soc__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  color: $tertiaryTextColor;
+}
+
+.list-join {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.list-join__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: $iconFooterBgColor;
+  transition: background-color $timeHover $cubicFunction;
+}
+
+.list-join__icon {
+  fill: $iconColorAccent;
+}
+
+.list-join__link:hover {
+  background-color: $iconBgColor;
+}
+
+/* Підпішіться на розсилку */
+
+.footer-subscr {
+  margin: 72px 0 93px 94px;
+}
+
+.footer-subscr__text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+
+  color: $tertiaryTextColor;
+}
+
+.subscr-form {
+  display: flex;
+}
+
+.subscr-form__label {
+  padding-left: 16px;
+
+  width: 358px;
+  height: 50px;
+
+  background-color: $secondaryBgColor;
+  color: $tertiaryTextColor;
+  border: 1px solid #ffffff4d;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscr-form input::placeholder {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: $footerTextColor;
+}
+
+.subscr-form__label:-webkit-autofill {
+  -webkit-text-fill-color: $tertiaryTextColor;
+  -webkit-box-shadow: 0 0 0 100px $secondaryBgColor inset;
+}
+
+.subscr-form__label:focus {
+  outline: none;
+}
+
+.subscr-form__btn {
+  display: inline-flex;
+  margin-left: 12px;
+  padding: 10px 28px;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  color: $tertiaryTextColor;
+  background-color: $primaryBtnBgColor;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  transition: background-color $timeHover $cubicFunction;
+}
+
+.subscr-form__btn:hover,
+.subscr-form__btn:focus {
+  background-color: #188ce8;
+}
+
+.subscr-form__icon {
+  margin-left: 10px;
+}

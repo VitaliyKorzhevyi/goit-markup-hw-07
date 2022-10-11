@@ -1,0 +1,28 @@
+/* СЕКЦІЯ З ОПИСОМ */
+
+.descr {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .descr__icon {
+    margin: 25px 100px;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .descr__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  
+  .descr__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+  }
